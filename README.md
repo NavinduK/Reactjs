@@ -5,7 +5,7 @@
 
 <h2>API Document</h2>
 <img width="50%" src="https://hpb.health.gov.lk/covid19-dashboard/img/logo-hpb.6c2ca8b9.png">
-<h4><a href="https://hpb.health.gov.lk/covid19-dashboard/">https://hpb.health.gov.lk/covid19-dashboard</a></h4>
+<h4><a href="https://hpb.health.gov.lk/en/api-documentation">https://hpb.health.gov.lk/en/api-documentation</a></h4>
 <p>-Navindu Kavishka-<p>
-<div>
+</div>
 <hr>
