@@ -1,7 +1,11 @@
 
-.section-global{
+.section-top{
   display: flex;
   margin: 1.5%;
+}
+
+.sub-paragraph{
+  font-size: 75%;
 }
 
 .center-text{

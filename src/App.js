@@ -2,8 +2,10 @@ import React,{ useEffect, useState } from 'react';
 import './App.css';
 import Global from './components/Global';
 import axios from 'axios';
+import Local from './components/Local';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-function App() {
+const App = () => {
 
   const[latest, setLatest] = useState("");
 
@@ -21,6 +23,7 @@ function App() {
   return(
     <div className="App">
         <Global latest={latest}/>
+        <Local latest={latest}/>
     </div>
   );
 }
