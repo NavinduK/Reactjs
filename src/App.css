@@ -1,0 +1,9 @@
+
+.section-global{
+  display: flex;
+  margin: 1.5%;
+}
+
+.center-text{
+  text-align: center;
+}

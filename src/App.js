@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Global from './components/Global';
+
 
 function App() {
-  return (
+  return(
     <div className="App">
-      Navindu Kavishka
+        <Global/>
+        
     </div>
   );
 }
