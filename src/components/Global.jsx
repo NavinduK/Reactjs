@@ -5,7 +5,7 @@ const Global = ({latest}) => {
         return (
             <div>
                 <div className="section-top center-text">
-                    <div className="card bg-gray mb-3 tx-orange" style={{width: '23%', margin:'1.5% 1.5% 1.5% 0'}}>
+                    <div className="card bg-gray mb-3 tx-orange" style={{width: '25%', margin:'1% 1% 1% 0'}}>
                         <div className="card-header"><h3>Total Cases</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_total_cases}</h2>
@@ -13,7 +13,7 @@ const Global = ({latest}) => {
                         </div>
                     </div>
 
-                    <div className="card bg-gray mb-3 tx-violet" style={{width: '23%', margin:'1.5%'}}>
+                    <div className="card bg-gray mb-3 tx-violet" style={{width: '25%', margin:'1%'}}>
                         <div className="card-header"><h3>New Cases</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_new_cases}</h2>
@@ -21,7 +21,7 @@ const Global = ({latest}) => {
                         </div>
                     </div>
 
-                    <div className="card bg-gray mb-3 tx-red" style={{width: '23%', margin:'1.5%'}}>
+                    <div className="card bg-gray mb-3 tx-red" style={{width: '25%', margin:'1%'}}>
                         <div className="card-header"><h3>Deaths</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_deaths}</h2>
@@ -29,7 +29,7 @@ const Global = ({latest}) => {
                         </div>
                     </div>
 
-                    <div className="card bg-gray mb-3 tx-green" style={{width: '23%', margin:'1.5% 0 1.5% 1.5%'}}>
+                    <div className="card bg-gray mb-3 tx-green" style={{width: '25%', margin:'1% 0 1% 1%'}}>
                         <div className="card-header"><h3>Recovered</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_recovered}</h2>

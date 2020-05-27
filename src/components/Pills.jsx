@@ -7,14 +7,14 @@ const Pills = ({latest}) => {
         <div>
             <div className="tabs" style={{margin:'1.5%'}}>
                 <div className="tab-2">
-                    <label htmlFor="tab2-1">Global Status</label>
+                    <label htmlFor="tab2-1"><h4>Global Situation</h4></label>
                     <input id="tab2-1" name="tabs-two" type="radio" defaultChecked="checked" />
                     <div>
                         <Global latest={latest}/>
                     </div>
                 </div>
                 <div className="tab-2">
-                    <label htmlFor="tab2-2">Local Status</label>
+                    <label htmlFor="tab2-2"><h4>Local Situation</h4></label>
                     <input id="tab2-2" name="tabs-two" type="radio" />
                     <div>
                         <Local latest={latest}/>
