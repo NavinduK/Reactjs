@@ -4,6 +4,8 @@ import Global from './components/Global';
 import axios from 'axios';
 import Local from './components/Local';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Navigator from './components/Navigator';
+import Pills from './components/Pills';
 
 const App = () => {
 
@@ -22,8 +24,8 @@ const App = () => {
 
   return(
     <div className="App">
-        <Global latest={latest}/>
-        <Local latest={latest}/>
+        <Navigator/>
+        <Pills latest={latest}/>
     </div>
   );
 }
