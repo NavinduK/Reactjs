@@ -3,8 +3,14 @@
   display: flex;
 }
 
+.card-header{
+  border-bottom: 2px solid #141412;
+}
+
 .round-corners{
-  border-radius: 5px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 3px rgb(53, 190, 87);
+  margin-bottom: 40px;
 }
 
 .sub-paragraph{
@@ -23,7 +29,11 @@ h1 {
 }
 
 .bg-gray{
-  background-color: #222222 ;
+  background-color: #1d1d1d ;
+}
+
+.bg-green{
+  background-color: rgb(47, 192, 83) ;
 }
 
 .tx-red{
@@ -31,7 +41,7 @@ h1 {
 }
 
 .tx-green{
-  color: rgb(47, 192, 83) !important; 
+  color: rgb(46, 124, 241) !important; 
 }
 
 .tx-violet{
@@ -61,25 +71,31 @@ select:focus {
 }
 .tabs [class^="tab"] label,
 .tabs [class*=" tab"] label {
-   cursor: pointer;
+    cursor: pointer;
     display: block;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1em;
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     text-align: center; 
+    border: 3px solid rgb(20, 20, 18);
+    background-color: #1d1d1d;
+    margin-bottom:-2px;
+    font-size: 25px;
   }
+  
 
   .tabs [class^="tab"] [type="radio"],
 
   .tabs [class*=" tab"] [type="radio"] {
-    border-bottom: 1px solid #343a40;
+    border-bottom: 1px solid rgb(46, 145, 71);
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     display: block;
-    width: 100%;
+    width: 99%;
+    margin: auto;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -88,11 +104,14 @@ select:focus {
     .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
     .tabs [class*=" tab"] [type="radio"]:hover,
     .tabs [class*=" tab"] [type="radio"]:focus {
-      border-bottom: 1px solid #0CBDB3; 
+      border-bottom: 1px solid rgb(53, 190, 87); 
+      box-shadow: 0px -5px 7px rgb(53, 190, 87);
     }
     .tabs [class^="tab"] [type="radio"]:checked,
     .tabs [class*=" tab"] [type="radio"]:checked {
-      border-bottom: 2px solid #0CBDB3; 
+      border-bottom: 3px solid rgb(47, 192, 83); 
+      box-shadow: 0px 5px 7px rgb(47, 192, 83);
+      
     }
     .tabs [class^="tab"] [type="radio"]:checked + div,
     .tabs [class*=" tab"] [type="radio"]:checked + div {

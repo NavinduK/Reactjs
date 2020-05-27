@@ -11,7 +11,6 @@ const Pills = ({latest}) => {
                     <input id="tab2-1" name="tabs-two" type="radio" defaultChecked="checked" />
                     <div>
                         <Global latest={latest}/>
-        
                     </div>
                 </div>
                 <div className="tab-2">
