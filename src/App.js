@@ -1,9 +1,9 @@
 import React,{ useEffect, useState } from 'react';
 import './App.css';
-import Global from './components/Global';
 import axios from 'axios';
-import Local from './components/Local';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+// import Global from './components/Global';
+// import Local from './components/Local';
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navigator from './components/Navigator';
 import Pills from './components/Pills';
 
@@ -21,6 +21,7 @@ const App = () => {
         console.log(err);
       });
   }, []);
+
 
   return(
     <div className="App">
