@@ -6,6 +6,9 @@ import axios from 'axios';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Navigator from './components/Navigator';
 import Pills from './components/Pills';
+import ChartPCR from './components/ChartPCR';
+import HospitalDetails from './components/HospitalDetails';
+import ChartPieSummary from './components/ChartPieSummary';
 
 const App = () => {
 
@@ -27,6 +30,11 @@ const App = () => {
     <div className="App">
         <Navigator/>
         <Pills latest={latest}/>
+        
+        <ChartPCR latest={latest}/>
+        <HospitalDetails latest={latest}/>
+        <ChartPieSummary latest={latest}/>
+        
     </div>
   );
 }
