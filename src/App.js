@@ -9,6 +9,7 @@ import Pills from './components/Pills';
 import ChartPCR from './components/ChartPCR';
 import HospitalDetails from './components/HospitalDetails';
 import ChartPieSummary from './components/ChartPieSummary';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -34,7 +35,8 @@ const App = () => {
         <ChartPCR latest={latest}/>
         <HospitalDetails latest={latest}/>
         <ChartPieSummary latest={latest}/>
-        <h6 className="footer bg-gray">© 2020 Navindu Kavishka</h6>
+        <Footer latest={latest}/>
+        
 
     </div>
   );

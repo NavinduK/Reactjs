@@ -9,7 +9,7 @@ const Global = ({latest}) => {
                         <div className="card-header"><h3>Total Cases</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_total_cases}</h2>
-                            <p className="card-text sub-paragraph">Last updated at: {latest.data?.update_date_time}</p>
+                            
                         </div>
                     </div>
 
@@ -17,7 +17,7 @@ const Global = ({latest}) => {
                         <div className="card-header"><h3>New Cases</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_new_cases}</h2>
-                            <p className="card-text sub-paragraph">Last updated at: {latest.data?.update_date_time}</p>
+                            
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ const Global = ({latest}) => {
                         <div className="card-header"><h3>Deaths</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_deaths}</h2>
-                            <p className="card-text sub-paragraph">Last updated at: {latest.data?.update_date_time}</p>
+                            
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const Global = ({latest}) => {
                         <div className="card-header"><h3>Recovered</h3></div>
                         <div className="card-body">
                             <h2 className="card-title">{latest.data?.global_recovered}</h2>
-                            <p className="card-text sub-paragraph">Last updated at: {latest.data?.update_date_time}</p>
+                            
                         </div>
                     </div>
                 </div>

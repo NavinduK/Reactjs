@@ -253,12 +253,11 @@ select:focus {
 
     .footer{
       width: 100%;
-      height: 3.5rem;
+      height: 4rem;
       text-align: center;
-      padding: 0rem;
+      padding: 0.55rem;
       align-items: center;
       justify-content: center;
-      display: flex;
       margin-top: 2rem;
     }
 
