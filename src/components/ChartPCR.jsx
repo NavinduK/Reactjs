@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {Line} from 'react-chartjs-2';
+import {Line, Bar} from 'react-chartjs-2';
 
 const ChartPCR = ({latest})=>{
     const[chartData,setChartData]=useState("")
@@ -53,10 +53,8 @@ const ChartPCR = ({latest})=>{
                     latest?.data?.daily_pcr_testing_data[latest?.data?.daily_pcr_testing_data.length-2].count,
                     latest?.data?.daily_pcr_testing_data[latest?.data?.daily_pcr_testing_data.length-1].count
                 ],
-                backgroundColor: 'rgba(47,192,83,0.1)',
-                borderColor:'#2ABB53',
-                pointBackgroundColor:'#2ABB53',
-                pointRadius:'8'
+                backgroundColor: 'rgb(47,192,83)',
+                borderColor:'#2ABB53'
             }]
         })
     },[latest])
@@ -66,7 +64,7 @@ const ChartPCR = ({latest})=>{
                 <h4 className="sub-heading bg-gray">Number of PCR test taken in last 20 days</h4>
                 <div style={{padding:'1rem'}} className="chartPCR bg-gray">
                 
-                <Line
+                <Bar
                     data={chartData}
                     width={'100%'}
                     height={'35%'}
