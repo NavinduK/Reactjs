@@ -63,7 +63,7 @@ const ChartPCR = ({latest})=>{
  
         return (
             <div  className="hospital-block" style={{width: '100%'}}>
-                <h4 className="sub-heading">Number of PCR test taken in last 20 days</h4>
+                <h4 className="sub-heading bg-gray">Number of PCR test taken in last 20 days</h4>
                 <div style={{padding:'1rem'}} className="chartPCR bg-gray">
                 
                 <Line

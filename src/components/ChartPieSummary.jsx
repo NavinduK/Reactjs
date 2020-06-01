@@ -34,7 +34,7 @@ const ChartPieSummary = ({latest})=>{
  
     return (
         <div  className="hospital-block" style={{width: '100%'}}>
-                <h4 className="sub-heading">Summary of current situation in Sri Lanka</h4>
+                <h4 className="sub-heading bg-gray">Summary of current situation in Sri Lanka</h4>
                 <div style={{padding:'1rem'}} className="chartPie bg-gray">
                     <div style={{width:'45%'}}>
                         <Doughnut

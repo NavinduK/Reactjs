@@ -16,9 +16,9 @@ const HospitalDetails = ({latest})=>{
 
     return (
         <div className="center-text hospital-block">
-            <h3 className="sub-heading">Details of selected hospitals in Sri Lanka</h3>
-            <div className="hospitals-container">
-                <div className="hospital ">
+            <h3 className="sub-heading bg-gray">Details of selected hospitals in Sri Lanka</h3>
+            <div className="hospitals-container ">
+                <div className="hospital bg-gray">
                     <div className="hospital-preview ">
                         <h5>{dataH?.hospital_data[maxHospitals[0]].hospital.name}</h5>
                     </div>

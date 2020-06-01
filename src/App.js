@@ -30,7 +30,7 @@ const App = () => {
     <div className="App">
         <Navigator/>
         <Pills latest={latest}/>
-        
+        <h3 className="main-heading bg-gray">Local Situational Analysis</h3>
         <ChartPCR latest={latest}/>
         <HospitalDetails latest={latest}/>
         <ChartPieSummary latest={latest}/>
