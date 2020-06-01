@@ -34,7 +34,8 @@ const App = () => {
         <ChartPCR latest={latest}/>
         <HospitalDetails latest={latest}/>
         <ChartPieSummary latest={latest}/>
-        
+        <h6 className="footer bg-gray">© 2020 Navindu Kavishka</h6>
+
     </div>
   );
 }
